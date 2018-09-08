@@ -72,6 +72,29 @@
   #footer {
     font-size: 5pt;
   }
+
+  #breadcrumb li a {
+    padding: 12px 5px 14px;
+  }
+
+  .info {
+    position: absolute;
+    top: 60%;
+  }
+
+  #restaurant-address {
+    width: 90%;
+  }
+
+  #restaurant-hours tr {
+    letter-spacing: 1px;
+  }
+
+  table {
+    padding-left: 5%;
+    padding-top: 2%;
+  }
+
 }
 @media screen and (min-width: 521px) and (max-width: 760px) {
 
