@@ -19,6 +19,10 @@ header {
   z-index: 1002;
 }
 
+h3 {
+  display: none;
+}
+
 .home {
   width: 100%;
   height: 59%;
@@ -48,7 +52,7 @@ header {
   border: 1px solid #fff;
   font-size: 11pt;
   height: 68%;
-  width: 20%;
+  width: 30%;
   margin: 1%;
 }
 
@@ -132,36 +136,36 @@ a .home:hover, a .home:focus {
   width: 70%;
 }
 
-          #restaurants-list .restaurant-img {
-            background-color: #ccc;
-            display: block;
-            margin: 0;
-            height: 100%;
-            width: 100%;
-          }
+#restaurants-list .restaurant-img {
+  background-color: #ccc;
+  display: block;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
 
-          #restaurants-list p {
-            width: 100%;
-            margin: 0;
-            font-size: 11pt;
-          }
+#restaurants-list p {
+  width: 100%;
+  margin: 0;
+  font-size: 11pt;
+}
 
-          #restaurants-list li a {
-            background-color: orange;
-            border-bottom: 3px solid #eee;
-            color: #fff;
-            display: inline-block;
-            font-size: 10pt;
-            margin: 0;
-            padding: 8px 30px 10px;
-            text-align: center;
-            text-decoration: none;
-            text-transform: uppercase;
-          }
+#restaurants-list li a {
+  background-color: orange;
+  border-bottom: 3px solid #eee;
+  color: #fff;
+  display: inline-block;
+  font-size: 10pt;
+  margin: 0;
+  padding: 8px 30px 10px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
 
-          #restaurants-list li a:hover, #restaurants-list li a:focus {
-            background-color: #3397db;
-          }
+#restaurants-list li a:hover, #restaurants-list li a:focus {
+  background-color: #3397db;
+}
 
 #footer {
   height: 2%;

@@ -79,7 +79,7 @@
 
   .info {
     position: absolute;
-    top: 60%;
+    top: 55%;
   }
 
   #restaurant-address {
@@ -95,7 +95,47 @@
     padding-top: 2%;
   }
 
-}
-@media screen and (min-width: 521px) and (max-width: 760px) {
+  .inside .home {
+    height: 30%;
+  }
 
+  .inside nav {
+    height: 30%;
+  }
+
+  .inside #map-container {
+    top: 17%;
+  }
+}
+
+@media screen and (min-width: 521px) and (max-width: 760px) {
+  #list-container, #filter-results {
+    width: 55%;
+  }
+
+  .info {
+    width: 48%;
+  }
+
+  #map-container {
+    width: 45%;
+  }
+
+  #restaurants-list {
+    padding: 2%;
+    width: 95%;
+  }
+
+  #restaurants-list li{
+    padding: 2%;
+    padding-bottom: 15%;
+    padding-top: 7%;
+    width: 95%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .filter-options select {
+    width: 25%;
+  }
 }
