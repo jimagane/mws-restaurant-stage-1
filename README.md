@@ -1,6 +1,6 @@
 # Restaurant Reviews App
 
-Creates a website that enables to search for restaurant reviews by neighborhood and cuisine type. Displays map of restaurant location, basic restaurant info, and reviews.
+Creates a website that enables to search for restaurant reviews by neighborhood and cuisine type. Displays map of restaurant location, basic restaurant info, and reviews, while utilizing responsive design, screen reader accessibility, and offline caching.
 
 ## Getting Started
 
@@ -30,13 +30,13 @@ To preview app pages, start a simple HTTP Server:
 
 5. Use browser to visit local site: http://localhost:8000
 
-You can use Chrome Developer Tools to easily test site responsiveness for multiple devices, as well as mimic offline network to test service writer cache functionality.
-
-ChromeVox Extension can be used to test screen reader accessibility features.
-
 ## Running Tests
 
 Refresh browser page to test modified code.
+
+You can use Chrome Developer Tools to easily test site responsiveness for multiple devices, as well as mimic offline network to test service writer cache functionality.
+
+ChromeVox Extension can be used to test screen reader accessibility features.
 
 ## Contributing
 
@@ -47,7 +47,7 @@ For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
 ## Dependencies
 
 Css normalize across browsers dependent on:
-/normalize-css.googlecode.com/svn/trunk/normalize.css
+http://normalize-css.googlecode.com/svn/trunk/normalize.css
 
 Leaflet map css dependent on:
 https://unpkg.com/leaflet@1.3.1/dist/leaflet.css

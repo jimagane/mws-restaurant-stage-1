@@ -220,7 +220,6 @@ a .home:hover, a .home:focus {
 /* Add a color on mouse-over */
 #breadcrumb li a:hover, #breadcrumb li a:focus {
   color: #f18200;
-	font-weight: bold;
   text-decoration: underline;
 }
 
